@@ -37,9 +37,15 @@ def health():
     )
     return response
 
+@app.route('/hang')
+def make_unresponsive():
+    while True:
+        pass
+
+
 if __name__ == '__main__':
     # By default flask is only accessible from localhost.
     # Set this to '0.0.0.0' to make it accessible from any IP address
     # on your network (not recommended for production use)
     port_number = int(os.getenv("PORT"))
-    app.run(host='0.0.0.0', port=port_number,  debug=True)
+    app.run(host='0.0.0.0', port=port_number,  debug=True, threaded=False)
