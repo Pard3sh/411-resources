@@ -14,10 +14,23 @@ User story 2: As a team lead onboarding an experienced GiggleGit user, I want th
 
 Task: Team Repos
 
-Ticket 1: Simple team repo creation process
+* Ticket 1: Simple team repo creation process
 
 Including role based access control -- admin, contributor, viewer, etc. 
 
-Ticket 2: Integration with Git
+* Ticket 2: Integration with Git
 
 The option to seamless work with Git workflows
+
+User story 3: As a team lead managing a squad of developers with different tastes, I want a way to enforce meme-quality standards on merge conflicts, so that my team can use meme merges that they are happy with, to increase productivity.
+
+Task: Meme Management System
+
+* Ticket 1: Meme Moderation
+
+Ability to set meme quality restrictions (e.g. time period, relevance, references, etc.)
+
+* Ticket 2: AI generated meme suggestions
+
+AI generation of suggested memes based on the merge context
+
